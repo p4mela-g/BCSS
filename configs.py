@@ -4,8 +4,8 @@ apiKey = 'n0Kp1ez8YOnOiWNoACryzeBlIzbUDW3iOD2DmPLI'
 
 source_folder_id = '5bbdeba3e629140048d017bb'
 
-SAVEPATH = './'
-ROIBOUNDSPATH = './meta/roiBounds.csv'
+SAVEPATH = './BCSS'
+ROIBOUNDSPATH = './BCSS/meta/roiBounds.csv'
 
 # Set either MPP or MAG.
 # If both are None, base (scan) magnification is used.
