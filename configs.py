@@ -4,7 +4,7 @@ apiKey = 'n0Kp1ez8YOnOiWNoACryzeBlIzbUDW3iOD2DmPLI'
 
 source_folder_id = '5bbdeba3e629140048d017bb'
 
-SAVEPATH = './BCSS'
+SAVEPATH = './BCSS/'
 ROIBOUNDSPATH = './BCSS/meta/roiBounds.csv'
 
 # Set either MPP or MAG.
@@ -23,9 +23,9 @@ MAG = None
 PIPELINE = (
     'images',
     'masks',
-    # 'annotations',
+    'annotations',
 )
 
 # if you only want to download data for specific slides
 SLIDES_TO_KEEP = None
-# SLIDES_TO_KEEP = ['TCGA-BH-A1FC', 'TCGA-A8-A07C', 'TCGA-A1-A0SK']
+#SLIDES_TO_KEEP = ['TCGA-A1-A0SP', 'TCGA-A2-A04P', 'TCGA-A2-A04Q', 'TCGA-A2-A04T', 'TCGA-A2-A0CM']
